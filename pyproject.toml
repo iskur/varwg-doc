@@ -1,8 +1,22 @@
+[project]
+name = "vg-doc"
+version = "0.1.0"
+description = "Documentation for VG, the single-site, auto-regressive weather generator"
+readme = "README.md"
+authors = [
+    { name = "iskur", email = "dirk.schlabing@posteo.de" }
+]
+requires-python = ">=3.13"
+dependencies = []
+dynamic = ["version", "description"]
+
 [build-system]
+# requires = ["hatchling"]
+# build-backend = "hatchling.build"
 requires = ["flit_core >=3.2,<4"]
 build-backend = "flit_core.buildapi"
 
-[project]
-name = "lumache"
-authors = [{name = "Graziella", email = "graziella@lumache"}]
-dynamic = ["version", "description"]
+[dependency-groups]
+dev = [
+    "restructuredtext-lint>=1.4.0",
+]
