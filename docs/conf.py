@@ -44,7 +44,7 @@ sys.path.append(str(Path().parent / "src"))
 
 extensions = [
     'sphinx.ext.duration',
-    'sphinx.ext.intersphinx',
+    # 'sphinx.ext.intersphinx',
     "sphinx.ext.autodoc",
     "sphinx.ext.apidoc",
     "sphinx.ext.doctest",
@@ -59,11 +59,11 @@ extensions = [
     "IPython.sphinxext.ipython_directive",
 ]
 
-intersphinx_mapping = {
-    'python': ('https://docs.python.org/3/', None),
-    'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
-}
-intersphinx_disabled_domains = ['std']
+# intersphinx_mapping = {
+#     'python': ('https://docs.python.org/3/', None),
+#     'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
+# }
+# intersphinx_disabled_domains = ['std']
 
 templates_path = ['_templates']
 
@@ -266,7 +266,7 @@ latex_documents = [
 
 
 # Example configuration for intersphinx: refer to the Python standard library.
-intersphinx_mapping = {"http://docs.python.org/": None}
+# intersphinx_mapping = {"http://docs.python.org/": None}
 
 
 # ------------------------------------------------------------------------------
