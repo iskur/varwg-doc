@@ -4,14 +4,6 @@ vg.core package
 Submodules
 ----------
 
-vg.core.monty module
---------------------
-
-.. automodule:: vg.core.monty
-   :members:
-   :show-inheritance:
-   :undoc-members:
-
 vg.core.vg\_base module
 -----------------------
 
