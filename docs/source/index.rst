@@ -4,7 +4,6 @@
    directive.
 
 Welcome to the VG documentation!
-
 ################################
 
 The weather generator VG is a single-site Vector-Autoregressive weather generator that was developed for hydrodynamic and ecologic modelling of lakes. It includes a number of possibilities to define climate scenarios. For example, changes in mean or in the variability of air temperature can be set. Correlations during simulations are preserved, so that these changes propagate from the air temperature to the other simulated variables.
