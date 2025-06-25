@@ -46,14 +46,6 @@ vg.helpers module
    :show-inheritance:
    :undoc-members:
 
-vg.meteox2y\_cy module
-----------------------
-
-.. automodule:: vg.meteox2y_cy
-   :members:
-   :show-inheritance:
-   :undoc-members:
-
 vg.smoothing module
 -------------------
 
