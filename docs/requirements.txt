@@ -9,8 +9,11 @@ babel==2.17.0
     # via sphinx
 bottleneck==1.5.0
     # via vg
+cartopy==0.24.1
 certifi==2025.6.15
-    # via requests
+    # via
+    #   pyproj
+    #   requests
 cffi==1.17.1
     # via timezonefinder
 charset-normalizer==3.4.2
@@ -55,6 +58,7 @@ markupsafe==3.0.2
     # via jinja2
 matplotlib==3.10.3
     # via
+    #   cartopy
     #   vg
     #   vg-doc
 matplotlib-inline==0.1.7
@@ -62,15 +66,18 @@ matplotlib-inline==0.1.7
 numpy==2.3.1
     # via
     #   bottleneck
+    #   cartopy
     #   contourpy
     #   matplotlib
     #   pandas
     #   scipy
+    #   shapely
     #   timezonefinder
     #   xarray
 numpydoc==1.9.0
 packaging==25.0
     # via
+    #   cartopy
     #   matplotlib
     #   sphinx
     #   xarray
@@ -99,6 +106,10 @@ pygments==2.19.2
     #   sphinx
 pyparsing==3.2.3
     # via matplotlib
+pyproj==3.7.1
+    # via cartopy
+pyshp==2.3.1
+    # via cartopy
 python-dateutil==2.9.0.post0
     # via
     #   matplotlib
@@ -112,6 +123,8 @@ roman-numerals-py==3.1.0
     # via sphinx
 scipy==1.16.0
     # via vg
+shapely==2.1.1
+    # via cartopy
 six==1.17.0
     # via python-dateutil
 snowballstemmer==3.0.1
