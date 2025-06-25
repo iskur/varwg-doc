@@ -65,6 +65,7 @@ tqdm==4.67.1
     # via vg
 tzdata==2025.2
     # via pandas
-vg @ git+ssh://git@github.com/iskur/vg@06ac08e32ddd66b240aae6aaf55e033741bebca5
+# vg @ git+https://git@github.com/iskur/vg@06ac08e32ddd66b240aae6aaf55e033741bebca5
+vg @ git+https://git@github.com/iskur/vg
 xarray==2025.6.1
     # via vg
