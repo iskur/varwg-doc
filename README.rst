@@ -12,4 +12,4 @@ The weather generator VG is a single-site Vector-Autoregressive weather generato
    VG's source code can be downloaded here: http://bitbucket.org/iskur/vg
 
 ..
-   To understand how to use VG, take a look into the `howto <source/tutorial/howto.html>`_.
+   To understand how to use VG, take a look into the `howto <_build/html/source/tutorial/howto.html>`_.
