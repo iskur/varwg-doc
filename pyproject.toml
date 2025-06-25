@@ -7,8 +7,10 @@ authors = [
     { name = "iskur", email = "dirk.schlabing@posteo.de" }
 ]
 requires-python = ">=3.13"
-dependencies = []
-dynamic = ["version", "description"]
+dependencies = [
+    "matplotlib>=3.10.3",
+]
+# dynamic = ["version", "description"]
 
 [build-system]
 # requires = ["hatchling"]
@@ -19,4 +21,8 @@ build-backend = "flit_core.buildapi"
 [dependency-groups]
 dev = [
     "restructuredtext-lint>=1.4.0",
+    "vg",
 ]
+
+[tool.uv.sources]
+vg = { git = "ssh://git@github.com/iskur/vg" }
