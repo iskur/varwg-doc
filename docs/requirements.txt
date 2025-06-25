@@ -112,6 +112,6 @@ tzdata==2025.2
 urllib3==2.5.0
     # via requests
 # vg @ git+ssh://git@github.com/iskur/vg@06ac08e32ddd66b240aae6aaf55e033741bebca5
-vg @ https+ssh://git@github.com/iskur/vg
+vg @ git+https://git@github.com/iskur/vg
 xarray==2025.6.1
     # via vg
