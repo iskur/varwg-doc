@@ -14,9 +14,9 @@ Initialization
 
     In [1]: import vg
     
-    In [2]: my_vg = vg.VG(("theta", "Qsw", "ILWR", "rh", "u", "v"), verbose=False)
+    In [2]: my_vg = vg.VG(("theta", "Qsw", "ILWR", "rh", "u", "v"))
 
-Initialization involves converting the input to stationary, standard- normal distributed variables via doy-specific quantile-quantile transform. As this is time-consuming, the fitting results are cached on the hard-drive (in the ``conf.cache_dir`` to be exact).
+Initialization involves converting the input to stationary, standard- normal distributed variables via day-of-year-specific quantile-quantile transform. As this is time-consuming, the fitting results are cached on the hard-drive (in the ``conf.cache_dir`` to be exact).
 
 More information on all the initialization parameters: :func:`vg.VG.__init__`.
 
@@ -24,8 +24,6 @@ The :class:`vg.VG` class provides a number of methods for plotting various resul
 
 .. ipython:: :okwarning:
 
-    # i am using the optional figsize parameter here simply to make the figures
-    # more beautiful
     @savefig meteogram.png
     In [3]: figs, axes = my_vg.plot_meteogram_daily(figsize=(8, 6))
 
