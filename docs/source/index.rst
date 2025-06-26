@@ -3,18 +3,17 @@
    liking, but it should at least contain the root `toctree`
    directive.
 
-..
-   Welcome to the VG documentation!
-   ################################
+Welcome to the VG documentation!
+################################
 
-   The weather generator VG is a single-site Vector-Autoregressive weather generator that was developed for hydrodynamic and ecologic modelling of lakes. It includes a number of possibilities to define climate scenarios. For example, changes in mean or in the variability of air temperature can be set. Correlations during simulations are preserved, so that these changes propagate from the air temperature to the other simulated variables.
+The weather generator VG is a single-site Vector-Autoregressive weather generator that was developed for hydrodynamic and ecologic modelling of lakes. It includes a number of possibilities to define climate scenarios. For example, changes in mean or in the variability of air temperature can be set. Correlations during simulations are preserved, so that these changes propagate from the air temperature to the other simulated variables.
 
-   ..
-      VG's source code can be downloaded here: http://bitbucket.org/iskur/vg
+      ..
+         VG's source code can be downloaded here: http://bitbucket.org/iskur/vg
 
-   To understand how to use VG, take a look into the `howto <tutorial/howto.html>`_.
+To understand how to use VG, take a look into the `howto <tutorial/howto.html>`_.
 
-   Contents:
+Contents:
 
 .. toctree::
    :maxdepth: 1
