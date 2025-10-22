@@ -10,7 +10,9 @@ Another tutorial shows how to configure VG to use other data.
 Initialization
 **************
 
-.. code-block:: python
+.. ipython::
+    :okwarning:
+    :okexcept:
 
     In [1]: from varwg import VarWG
 
@@ -22,20 +24,24 @@ More information on all the initialization parameters: :func:`varwg.VarWG.__init
 
 The :class:`varwg.VarWG` class provides a number of methods for plotting various results. To see the input time series one can use :func:`varwg.VarWG.plot_timehists`:
 
-.. code-block:: python
+.. ipython::
+    :okwarning:
+    :okexcept:
 
     @savefig meteogram.png
     In [3]: figs, axes = my_vg.plot_meteogram_daily(figsize=(8, 6))
 
 The fitting of the daily seasonal distribution can be visualized with :func:`varwg.VarWG.plot_daily_fit`:
 
-.. code-block:: python
+.. ipython::
+    :okwarning:
+    :okexcept:
 
     # the plot_quantiles and plot_fourier parameters can be omitted in order to
     # get more information on the fitting.
     @savefig seasonal_fit_theta.png
     In [3]: my_vg.plot_daily_fit("theta", plot_quantiles=False, plot_fourier=False)
-     
+
     # if the fit is good, the histogram of the quantiles should be roughly
     # uniformly distributed
     @savefig seasonal_fit_theta_quantiles.png
@@ -75,7 +81,9 @@ The output is also stored in the ``out_dir`` (specified in ``config.py``) as tex
 
 At this point it can be assessed whether the order selection was successful. :func:`varwg.VarWG.plot_autocorr` provides a shortcut to plot the autocorrelations of residuals, measured (continuous line) and simulated (dashed line) data (in the "real" and the "transformed" domain)
 
-.. code-block:: python
+.. ipython::
+    :okwarning:
+    :okexcept:
 
     # in a real ipython shell one call to plot_autocorr suffices. here i have
     # to hack to get all figures
@@ -95,17 +103,21 @@ Scenarios are implemented through changes based on the primary variable (default
 Increased mean (``theta_incr``)
 -------------------------------
 
-.. code-block:: python
-    
+.. ipython::
+    :okwarning:
+    :okexcept:
+
     In [9]: times_out, sim_data = my_vg.simulate(theta_incr=4)
-    
+
     # we can display the result like we did above with the input data
     @savefig meteogram_sim_theta.png
     In [10]: figs, axes = my_vg.plot_meteogram_daily()
 
 Another way to visualize the simulation is offered by the method :func:`varwg.VarWG.plot_doy_scatter`:
 
-.. code-block:: python
+.. ipython::
+    :okwarning:
+    :okexcept:
 
     @savefig doy_scatter_theta.png
     In [12]: my_vg.plot_doy_scatter("theta", figsize=(8, 4))
@@ -142,7 +154,9 @@ See :func:`varwg.VarWG.disaggregate`
 
 Disaggregation also regenerates the seasonal changes in daily cycle.
 
-.. ipython:: :okwarning: :okexcept:
+.. ipython::
+    :okwarning:
+    :okexcept:
 
     @savefig daily_cycles.png
     In [13]: fig, axes = my_vg.plot_daily_cycles("Qsw")
