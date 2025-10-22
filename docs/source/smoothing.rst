@@ -1,1 +1,1 @@
-.. automodule:: vg.smoothing
+.. automodule:: varwg.smoothing

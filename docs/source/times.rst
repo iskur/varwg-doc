@@ -1,1 +1,1 @@
-.. automodule:: vg.times
+.. automodule:: varwg.times

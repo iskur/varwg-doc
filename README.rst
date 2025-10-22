@@ -3,13 +3,13 @@
    liking, but it should at least contain the root `toctree`
    directive.
 
-Welcome to the VG documentation!
-################################
+Welcome to the VARWG documentation!
+####################################
 
-The weather generator VG is a single-site Vector-Autoregressive weather generator that was developed for hydrodynamic and ecologic modelling of lakes. It includes a number of possibilities to define climate scenarios. For example, changes in mean or in the variability of air temperature can be set. Correlations during simulations are preserved, so that these changes propagate from the air temperature to the other simulated variables.
+The weather generator VARWG (Vector Autoregressive Weather Generator) is a single-site weather generator that was developed for hydrodynamic and ecologic modelling of lakes. It includes a number of possibilities to define climate scenarios. For example, changes in mean or in the variability of air temperature can be set. Correlations during simulations are preserved, so that these changes propagate from the air temperature to the other simulated variables.
 
 ..
-   VG's source code can be downloaded here: http://bitbucket.org/iskur/vg
+   VARWG's source code can be downloaded here: https://github.com/iskur/vg
 
 ..
    To understand how to use VG, take a look into the `howto <_build/html/source/tutorial/howto.html>`_.

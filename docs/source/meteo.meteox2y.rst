@@ -1,1 +1,1 @@
-.. automodule:: vg.meteo.meteox2y
+.. automodule:: varwg.meteo.meteox2y

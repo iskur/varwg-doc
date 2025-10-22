@@ -1,7 +1,7 @@
-vg
+varwg
 ==
 
 .. toctree::
    :maxdepth: 4
 
-   vg
+   varwg

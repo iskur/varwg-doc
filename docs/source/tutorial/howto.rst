@@ -10,26 +10,26 @@ Another tutorial shows how to configure VG to use other data.
 Initialization
 **************
 
-.. ipython:: :okwarning:
+.. code-block:: python
 
-    In [1]: import vg
-    
-    In [2]: my_vg = vg.VG(("theta", "Qsw", "ILWR", "rh", "u", "v"))
+    In [1]: from varwg import VarWG
+
+    In [2]: my_vg = VarWG(("theta", "Qsw", "ILWR", "rh", "u", "v"))
 
 Initialization involves converting the input to stationary, standard- normal distributed variables via day-of-year-specific quantile-quantile transform. As this is time-consuming, the fitting results are cached on the hard-drive (in the ``conf.cache_dir`` to be exact).
 
-More information on all the initialization parameters: :func:`vg.VG.__init__`.
+More information on all the initialization parameters: :func:`varwg.VarWG.__init__`.
 
-The :class:`vg.VG` class provides a number of methods for plotting various results. To see the input time series one can use :func:`vg.VG.plot_timehists`:
+The :class:`varwg.VarWG` class provides a number of methods for plotting various results. To see the input time series one can use :func:`varwg.VarWG.plot_timehists`:
 
-.. ipython:: :okwarning:
+.. code-block:: python
 
     @savefig meteogram.png
     In [3]: figs, axes = my_vg.plot_meteogram_daily(figsize=(8, 6))
 
-The fitting of the daily seasonal distribution can be visualized with :func:`vg.VG.plot_daily_fit`:
+The fitting of the daily seasonal distribution can be visualized with :func:`varwg.VarWG.plot_daily_fit`:
 
-.. ipython:: :okwarning:
+.. code-block:: python
 
     # the plot_quantiles and plot_fourier parameters can be omitted in order to
     # get more information on the fitting.
@@ -43,19 +43,19 @@ The fitting of the daily seasonal distribution can be visualized with :func:`vg.
 
 If you are not satisfied with the conversion, adjust the settings in ``config.py`` and initialize VG again with the ``refit``-parameter:
 
-.. ipython:: :okwarning:
+.. code-block:: python
 
-    In [3]: my_vg = vg.VG(("theta", "Qsw", "ILWR", "rh", "u", "v"), refit="ILWR", verbose=False)
+    In [3]: my_vg = VarWG(("theta", "Qsw", "ILWR", "rh", "u", "v"), refit="ILWR", verbose=False)
     
     # you can also supply multiple variables to refit
-    In [4]: my_vg = vg.VG(("theta", "Qsw", "ILWR", "rh", "u", "v"), refit=("ILWR", "rh"), verbose=False) 
+    In [4]: my_vg = VarWG(("theta", "Qsw", "ILWR", "rh", "u", "v"), refit=("ILWR", "rh"), verbose=False) 
 
 Fitting
 *******
 
-Calling :func:`vg.VG.fit` fits the stochastic process to the transformed data. When called without parameters, an order selection is performed to find a good compromise between the fit and the number of parameters. Per default, the moving average part is neglected (``q=0``).
+Calling :func:`varwg.VarWG.fit` fits the stochastic process to the transformed data. When called without parameters, an order selection is performed to find a good compromise between the fit and the number of parameters. Per default, the moving average part is neglected (``q=0``).
 
-.. ipython:: :okwarning:
+.. code-block:: python
 
     In [3]: my_vg.fit()
 
@@ -65,17 +65,17 @@ Calling :func:`vg.VG.fit` fits the stochastic process to the transformed data. W
 Simulation
 **********
 
-Without parameters, :func:`vg.VG.simulate` generates time series similar to the input data.
+Without parameters, :func:`varwg.VarWG.simulate` generates time series similar to the input data.
 
-.. ipython:: :okwarning:
+.. code-block:: python
 
     In [8]: times_out, sim_data = my_vg.simulate()
 
 The output is also stored in the ``out_dir`` (specified in ``config.py``) as text file.
 
-At this point it can be assessed whether the order selection was successful. :func:`vg.VG.plot_autocorr` provides a shortcut to plot the autocorrelations of residuals, measured (continuous line) and simulated (dashed line) data (in the "real" and the "transformed" domain)
+At this point it can be assessed whether the order selection was successful. :func:`varwg.VarWG.plot_autocorr` provides a shortcut to plot the autocorrelations of residuals, measured (continuous line) and simulated (dashed line) data (in the "real" and the "transformed" domain)
 
-.. ipython:: :okwarning:
+.. code-block:: python
 
     # in a real ipython shell one call to plot_autocorr suffices. here i have
     # to hack to get all figures
@@ -83,19 +83,19 @@ At this point it can be assessed whether the order selection was successful. :fu
     In [9]: figs = my_vg.plot_autocorr()
 
     @savefig autocorr_stale_2.png
-    In [9]: vg.plt.figure(5)
+    In [9]: varwg.plt.figure(5)
     
-Would the fit have been less good, one could consider calling :func:`vg.VG.fit` again with a higher ``p``.
+Would the fit have been less good, one could consider calling :func:`varwg.VarWG.fit` again with a higher ``p``.
 
 Scenarios
 =========
 
-Scenarios are implemented through changes based on the primary variable (default: air temperature). The primary variable can be specified by the parameter ``primary_var`` in :func:`vg.VG.simulate`.
+Scenarios are implemented through changes based on the primary variable (default: air temperature). The primary variable can be specified by the parameter ``primary_var`` in :func:`varwg.VarWG.simulate`.
 
 Increased mean (``theta_incr``)
 -------------------------------
 
-.. ipython:: :okwarning:
+.. code-block:: python
     
     In [9]: times_out, sim_data = my_vg.simulate(theta_incr=4)
     
@@ -103,9 +103,9 @@ Increased mean (``theta_incr``)
     @savefig meteogram_sim_theta.png
     In [10]: figs, axes = my_vg.plot_meteogram_daily()
 
-Another way to visualize the simulation is offered by the method :func:`vg.VG.plot_doy_scatter`:
+Another way to visualize the simulation is offered by the method :func:`varwg.VarWG.plot_doy_scatter`:
 
-.. ipython:: :okwarning:
+.. code-block:: python
 
     @savefig doy_scatter_theta.png
     In [12]: my_vg.plot_doy_scatter("theta", figsize=(8, 4))
@@ -116,7 +116,7 @@ Increased variability via enhanced episodes (``mean_arrival`` and ``disturbance_
 
 For increased variability, a Poisson-process is used to set the theoretical mean of the autoregressive process. Durations of episodes are drawn from an exponential distribution with the mean specified as ``mean_arrival``. For each episode, a disturbance is drawn from a normal distribution with the standard deviation of ``disturbance_std``.
 
-.. ipython:: :okwarning:
+.. code-block:: python
     
     In [11]: times_out, sim_data = my_vg.simulate(mean_arrival=7, disturbance_std=4)
 
@@ -129,20 +129,20 @@ VG can be made to follow a specific signal by passing an array with the ``climat
 Output
 ======
 
-:func:`vg.VG.simulate` dumps the generated time series in the ``out_dir`` (specified in ``config.py``) as an ascii file. The filename is chosen by the fitting parameters (Example: ``VARMA_p3_q0_sim.dat``)
+:func:`varwg.VarWG.simulate` dumps the generated time series in the ``out_dir`` (specified in ``config.py``) as an ascii file. The filename is chosen by the fitting parameters (Example: ``VARMA_p3_q0_sim.dat``)
 
 Disaggregation
 **************
 
-See :func:`vg.VG.disaggregate`
+See :func:`varwg.VarWG.disaggregate`
 
-.. ipython:: :okwarning:
+.. code-block:: python
 
     In [12]: times_dis, sim_dis = my_vg.disaggregate(("Qsw", "u", "v"))
 
 Disaggregation also regenerates the seasonal changes in daily cycle.
 
-.. ipython:: :okwarning:
+.. ipython:: :okwarning: :okexcept:
 
     @savefig daily_cycles.png
     In [13]: fig, axes = my_vg.plot_daily_cycles("Qsw")
@@ -150,4 +150,4 @@ Disaggregation also regenerates the seasonal changes in daily cycle.
 Tips
 ****
 
-- Caching: Once you change anything in the met_file you have to empty the cache! To empty the cache, simply delete everything in the ``cache_dir`` (specified in ``config.py``) or call the function :func:`vg.delete_cache`
+- Caching: Once you change anything in the met_file you have to empty the cache! To empty the cache, simply delete everything in the ``cache_dir`` (specified in ``config.py``) or call the function :func:`varwg.delete_cache`
