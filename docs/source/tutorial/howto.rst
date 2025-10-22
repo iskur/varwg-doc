@@ -135,9 +135,9 @@ Increased variability via enhanced episodes (``mean_arrival`` and ``disturbance_
 For increased variability, a Poisson-process is used to set the theoretical mean of the autoregressive process. Durations of episodes are drawn from an exponential distribution with the mean specified as ``mean_arrival``. For each episode, a disturbance is drawn from a normal distribution with the standard deviation of ``disturbance_std``.
 
 .. ipython::
-   :okwarning:
-   :okexcept:
-    
+    :okwarning:
+    :okexcept:
+
     In [11]: times_out, sim_data = my_vg.simulate(mean_arrival=7, disturbance_std=4)
 
 
@@ -157,8 +157,8 @@ Disaggregation
 See :func:`varwg.VarWG.disaggregate`
 
 .. ipython::
-   :okwarning:
-   :okexcept:
+    :okwarning:
+    :okexcept:
 
     In [12]: times_dis, sim_dis = my_vg.disaggregate(("Qsw", "u", "v"))
 
