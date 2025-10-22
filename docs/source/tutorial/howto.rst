@@ -49,7 +49,9 @@ The fitting of the daily seasonal distribution can be visualized with :func:`var
 
 If you are not satisfied with the conversion, adjust the settings in ``config.py`` and initialize VG again with the ``refit``-parameter:
 
-.. code-block:: python
+.. ipython::
+    :okwarning:
+    :okexcept:
 
     In [3]: my_vg = VarWG(("theta", "Qsw", "ILWR", "rh", "u", "v"), refit="ILWR", verbose=False)
     
@@ -61,7 +63,9 @@ Fitting
 
 Calling :func:`varwg.VarWG.fit` fits the stochastic process to the transformed data. When called without parameters, an order selection is performed to find a good compromise between the fit and the number of parameters. Per default, the moving average part is neglected (``q=0``).
 
-.. code-block:: python
+.. ipython::
+    :okwarning:
+    :okexcept:
 
     In [3]: my_vg.fit()
 
@@ -73,7 +77,9 @@ Simulation
 
 Without parameters, :func:`varwg.VarWG.simulate` generates time series similar to the input data.
 
-.. code-block:: python
+.. ipython::
+    :okwarning:
+    :okexcept:
 
     In [8]: times_out, sim_data = my_vg.simulate()
 
@@ -128,7 +134,9 @@ Increased variability via enhanced episodes (``mean_arrival`` and ``disturbance_
 
 For increased variability, a Poisson-process is used to set the theoretical mean of the autoregressive process. Durations of episodes are drawn from an exponential distribution with the mean specified as ``mean_arrival``. For each episode, a disturbance is drawn from a normal distribution with the standard deviation of ``disturbance_std``.
 
-.. code-block:: python
+.. ipython::
+   :okwarning:
+   :okexcept:
     
     In [11]: times_out, sim_data = my_vg.simulate(mean_arrival=7, disturbance_std=4)
 
@@ -148,7 +156,9 @@ Disaggregation
 
 See :func:`varwg.VarWG.disaggregate`
 
-.. code-block:: python
+.. ipython::
+   :okwarning:
+   :okexcept:
 
     In [12]: times_dis, sim_dis = my_vg.disaggregate(("Qsw", "u", "v"))
 
