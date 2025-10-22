@@ -83,7 +83,7 @@ source_suffix = ".rst"
 master_doc = "index"
 
 # General information about the project.
-project = "VG"
+project = "VARWG"
 copyright = "2019, Dirk Schlabing, Magdalena Eder, and others"
 
 # The version info for the project you're documenting, acts as replacement for
