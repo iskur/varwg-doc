@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# vg documentation build configuration file, created by
+# varwg documentation build configuration file, created by
 # sphinx-quickstart on Fri Feb 12 19:20:02 2010.
 #
 # This file is execfile()d with the current directory set to its containing dir.
@@ -29,7 +29,7 @@ from pathlib import Path
 #'sphinx.ext.intersphinx', 'sphinx.ext.todo', 'sphinx.ext.coverage',
 #'sphinx.ext.pngmath', 'sphinx.ext.jsmath']
 
-project = 'VG'
+# This is overridden by the project = "VARWG" below
 # copyright = '2021, Graziella'
 # author = 'Graziella'
 
@@ -221,7 +221,7 @@ html_sidebars = {
 # html_file_suffix = ''
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = "VGDoc"
+htmlhelp_basename = "VARWGDoc"
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
@@ -240,8 +240,8 @@ epub_show_urls = 'footnote'
 latex_documents = [
     (
         "index",
-        "vg.tex",
-        "VG Documentation",
+        "varwg.tex",
+        "VARWG Documentation",
         "Dirk Schlabing, Magdalena Eder, and others",
         "manual",
     ),

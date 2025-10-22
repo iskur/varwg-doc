@@ -1,5 +1,5 @@
-vg package
-==========
+varwg package
+==============
 
 Subpackages
 -----------
@@ -7,55 +7,55 @@ Subpackages
 .. toctree::
    :maxdepth: 4
 
-   vg.core
-   vg.meteo
-   vg.time_series_analysis
+   varwg.core
+   varwg.meteo
+   varwg.time_series_analysis
 
 Submodules
 ----------
 
-vg.config\_template module
---------------------------
+varwg.config\_template module
+------------------------------
 
 .. automodule:: varwg.config_template
    :members:
    :show-inheritance:
    :undoc-members:
 
-vg.ctimes module
-----------------
+varwg.ctimes module
+-------------------
 
 .. automodule:: varwg.ctimes
    :members:
    :show-inheritance:
    :undoc-members:
 
-vg.ecdf module
---------------
+varwg.ecdf module
+-----------------
 
 .. automodule:: varwg.ecdf
    :members:
    :show-inheritance:
    :undoc-members:
 
-vg.helpers module
------------------
+varwg.helpers module
+--------------------
 
 .. automodule:: varwg.helpers
    :members:
    :show-inheritance:
    :undoc-members:
 
-vg.smoothing module
--------------------
+varwg.smoothing module
+----------------------
 
 .. automodule:: varwg.smoothing
    :members:
    :show-inheritance:
    :undoc-members:
 
-vg.times module
----------------
+varwg.times module
+------------------
 
 .. automodule:: varwg.times
    :members:
@@ -65,7 +65,7 @@ vg.times module
 Module contents
 ---------------
 
-.. automodule:: vg
+.. automodule:: varwg
    :members:
    :show-inheritance:
    :undoc-members:
