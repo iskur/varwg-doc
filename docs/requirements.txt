@@ -162,7 +162,7 @@ tzdata==2025.2
     # via pandas
 urllib3==2.5.0
     # via requests
-varwg @ git+ssh://git@github.com/iskur/varwg@adf6640ab89c1b1164d56cb14d85e5d70cdce059
+varwg @ git+https://github.com/iskur/varwg@adf6640ab89c1b1164d56cb14d85e5d70cdce059
 wcwidth==0.2.14
     # via prompt-toolkit
 xarray==2025.10.1
