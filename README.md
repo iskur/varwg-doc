@@ -6,7 +6,7 @@ Documentation for **VARWG** (Vector Autoregressive Weather Generator), a single-
 
 VARWG is a stochastic weather generator that simulates realistic weather sequences while preserving correlations between variables. It supports climate scenario definition, allowing changes to mean values and variability of meteorological variables such as air temperature, which then propagate through to other simulated variables.
 
-This repository contains the **Sphinx-based documentation** for the VARWG library. The documentation is automatically built and hosted on [ReadTheDocs](https://varwg-doc.readthedocs.io).
+This repository contains the **Sphinx-based documentation** for the VARWG library. The documentation is automatically built and hosted on [ReadTheDocs](https://vg-doc.readthedocs.io).
 
 ## Project Structure
 
