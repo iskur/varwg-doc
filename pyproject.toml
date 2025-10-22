@@ -1,5 +1,5 @@
 [project]
-name = "vg-doc"
+name = "varwg-doc"
 version = "0.1.0"
 description = "Documentation for VG, the single-site, auto-regressive weather generator"
 readme = "README.md"
@@ -24,8 +24,8 @@ dev = [
     "ipython>=9.3.0",
     "numpydoc>=1.9.0",
     "restructuredtext-lint>=1.4.0",
-    "vg",
+    "varwg",
 ]
 
 [tool.uv.sources]
-vg = { git = "ssh://git@github.com/iskur/vg" }
+varwg = { git = "ssh://git@github.com/iskur/varwg" }
