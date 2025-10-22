@@ -1,6 +1,6 @@
-﻿vg.smoothing.variance
-=====================
+﻿varwg.smoothing.variance
+========================
 
-.. currentmodule:: vg.smoothing
+.. currentmodule:: varwg.smoothing
 
 .. autofunction:: variance

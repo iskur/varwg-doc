@@ -1,6 +1,6 @@
-﻿vg.times.datetime2ordinal
-=========================
+﻿varwg.times.datetime2ordinal
+============================
 
-.. currentmodule:: vg.times
+.. currentmodule:: varwg.times
 
 .. autofunction:: datetime2ordinal

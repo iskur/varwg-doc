@@ -1,6 +1,6 @@
-﻿vg.time\_series\_analysis.models.AIC
-====================================
+﻿varwg.time\_series\_analysis.models.AIC
+=======================================
 
-.. currentmodule:: vg.time_series_analysis.models
+.. currentmodule:: varwg.time_series_analysis.models
 
 .. autofunction:: AIC

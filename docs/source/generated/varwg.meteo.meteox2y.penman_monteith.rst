@@ -1,6 +1,6 @@
-﻿vg.meteo.meteox2y.penman\_monteith
-==================================
+﻿varwg.meteo.meteox2y.penman\_monteith
+=====================================
 
-.. currentmodule:: vg.meteo.meteox2y
+.. currentmodule:: varwg.meteo.meteox2y
 
 .. autofunction:: penman_monteith

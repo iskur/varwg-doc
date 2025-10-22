@@ -1,6 +1,6 @@
-﻿vg.meteo.meteox2y.lw2clouds
-===========================
+﻿varwg.meteo.meteox2y.lw2clouds
+==============================
 
-.. currentmodule:: vg.meteo.meteox2y
+.. currentmodule:: varwg.meteo.meteox2y
 
 .. autofunction:: lw2clouds

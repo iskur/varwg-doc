@@ -1,6 +1,6 @@
-﻿vg.meteo.meteox2y.haude
-=======================
+﻿varwg.meteo.meteox2y.haude
+==========================
 
-.. currentmodule:: vg.meteo.meteox2y
+.. currentmodule:: varwg.meteo.meteox2y
 
 .. autofunction:: haude

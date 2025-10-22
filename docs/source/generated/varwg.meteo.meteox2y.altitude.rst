@@ -1,6 +1,6 @@
-﻿vg.meteo.meteox2y.altitude
-==========================
+﻿varwg.meteo.meteox2y.altitude
+=============================
 
-.. currentmodule:: vg.meteo.meteox2y
+.. currentmodule:: varwg.meteo.meteox2y
 
 .. autofunction:: altitude

@@ -1,6 +1,6 @@
-﻿vg.times.iso2unix
-=================
+﻿varwg.times.iso2unix
+====================
 
-.. currentmodule:: vg.times
+.. currentmodule:: varwg.times
 
 .. autofunction:: iso2unix

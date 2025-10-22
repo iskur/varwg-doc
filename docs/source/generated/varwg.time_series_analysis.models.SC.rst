@@ -1,6 +1,6 @@
-﻿vg.time\_series\_analysis.models.SC
-===================================
+﻿varwg.time\_series\_analysis.models.SC
+======================================
 
-.. currentmodule:: vg.time_series_analysis.models
+.. currentmodule:: varwg.time_series_analysis.models
 
 .. autofunction:: SC

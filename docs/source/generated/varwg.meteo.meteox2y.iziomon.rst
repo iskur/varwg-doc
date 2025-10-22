@@ -1,6 +1,6 @@
-﻿vg.meteo.meteox2y.iziomon
-=========================
+﻿varwg.meteo.meteox2y.iziomon
+============================
 
-.. currentmodule:: vg.meteo.meteox2y
+.. currentmodule:: varwg.meteo.meteox2y
 
 .. autofunction:: iziomon

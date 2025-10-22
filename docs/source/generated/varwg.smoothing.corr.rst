@@ -1,6 +1,6 @@
-﻿vg.smoothing.corr
-=================
+﻿varwg.smoothing.corr
+====================
 
-.. currentmodule:: vg.smoothing
+.. currentmodule:: varwg.smoothing
 
 .. autofunction:: corr

@@ -1,6 +1,6 @@
-﻿vg.times.unix2datetime
-======================
+﻿varwg.times.unix2datetime
+=========================
 
-.. currentmodule:: vg.times
+.. currentmodule:: varwg.times
 
 .. autofunction:: unix2datetime

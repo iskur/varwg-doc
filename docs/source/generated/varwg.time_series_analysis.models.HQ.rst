@@ -1,6 +1,6 @@
-﻿vg.time\_series\_analysis.models.HQ
-===================================
+﻿varwg.time\_series\_analysis.models.HQ
+======================================
 
-.. currentmodule:: vg.time_series_analysis.models
+.. currentmodule:: varwg.time_series_analysis.models
 
 .. autofunction:: HQ

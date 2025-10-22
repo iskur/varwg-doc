@@ -1,6 +1,6 @@
-﻿vg.times.cwr2str
-================
+﻿varwg.times.cwr2str
+===================
 
-.. currentmodule:: vg.times
+.. currentmodule:: varwg.times
 
 .. autofunction:: cwr2str

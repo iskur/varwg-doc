@@ -1,6 +1,6 @@
-﻿vg.smoothing.smooth
-===================
+﻿varwg.smoothing.smooth
+======================
 
-.. currentmodule:: vg.smoothing
+.. currentmodule:: varwg.smoothing
 
 .. autofunction:: smooth

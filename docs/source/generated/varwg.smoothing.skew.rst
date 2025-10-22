@@ -1,6 +1,6 @@
-﻿vg.smoothing.skew
-=================
+﻿varwg.smoothing.skew
+====================
 
-.. currentmodule:: vg.smoothing
+.. currentmodule:: varwg.smoothing
 
 .. autofunction:: skew

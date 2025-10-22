@@ -1,6 +1,6 @@
-﻿vg.times.index2timestamp
-========================
+﻿varwg.times.index2timestamp
+===========================
 
-.. currentmodule:: vg.times
+.. currentmodule:: varwg.times
 
 .. autofunction:: index2timestamp

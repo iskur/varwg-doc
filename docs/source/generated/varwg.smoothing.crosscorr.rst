@@ -1,6 +1,6 @@
-﻿vg.smoothing.crosscorr
-======================
+﻿varwg.smoothing.crosscorr
+=========================
 
-.. currentmodule:: vg.smoothing
+.. currentmodule:: varwg.smoothing
 
 .. autofunction:: crosscorr

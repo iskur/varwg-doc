@@ -1,6 +1,6 @@
-﻿vg.times.time\_part
-===================
+﻿varwg.times.time\_part
+======================
 
-.. currentmodule:: vg.times
+.. currentmodule:: varwg.times
 
 .. autofunction:: time_part

@@ -1,6 +1,6 @@
-﻿vg.meteo.meteox2y.pot\_s\_rad
-=============================
+﻿varwg.meteo.meteox2y.pot\_s\_rad
+================================
 
-.. currentmodule:: vg.meteo.meteox2y
+.. currentmodule:: varwg.meteo.meteox2y
 
 .. autofunction:: pot_s_rad

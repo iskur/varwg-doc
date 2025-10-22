@@ -1,6 +1,6 @@
-﻿vg.meteo.meteox2y.dew2rel
-=========================
+﻿varwg.meteo.meteox2y.dew2rel
+============================
 
-.. currentmodule:: vg.meteo.meteox2y
+.. currentmodule:: varwg.meteo.meteox2y
 
 .. autofunction:: dew2rel

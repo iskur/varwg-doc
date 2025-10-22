@@ -1,6 +1,6 @@
-﻿vg.times.cwr2datetime
-=====================
+﻿varwg.times.cwr2datetime
+========================
 
-.. currentmodule:: vg.times
+.. currentmodule:: varwg.times
 
 .. autofunction:: cwr2datetime

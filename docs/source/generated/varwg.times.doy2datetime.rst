@@ -1,6 +1,6 @@
-﻿vg.times.doy2datetime
-=====================
+﻿varwg.times.doy2datetime
+========================
 
-.. currentmodule:: vg.times
+.. currentmodule:: varwg.times
 
 .. autofunction:: doy2datetime

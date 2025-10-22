@@ -1,6 +1,6 @@
-﻿vg.times.datetime2str
-=====================
+﻿varwg.times.datetime2str
+========================
 
-.. currentmodule:: vg.times
+.. currentmodule:: varwg.times
 
 .. autofunction:: datetime2str

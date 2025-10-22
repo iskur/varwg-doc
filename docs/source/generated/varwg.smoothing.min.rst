@@ -1,6 +1,6 @@
-﻿vg.smoothing.min
-================
+﻿varwg.smoothing.min
+===================
 
-.. currentmodule:: vg.smoothing
+.. currentmodule:: varwg.smoothing
 
 .. autofunction:: min

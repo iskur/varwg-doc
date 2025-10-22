@@ -1,6 +1,6 @@
-﻿vg.smoothing.median
-===================
+﻿varwg.smoothing.median
+======================
 
-.. currentmodule:: vg.smoothing
+.. currentmodule:: varwg.smoothing
 
 .. autofunction:: median

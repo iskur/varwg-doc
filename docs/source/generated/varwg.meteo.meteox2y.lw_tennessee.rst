@@ -1,6 +1,6 @@
-﻿vg.meteo.meteox2y.lw\_tennessee
-===============================
+﻿varwg.meteo.meteox2y.lw\_tennessee
+==================================
 
-.. currentmodule:: vg.meteo.meteox2y
+.. currentmodule:: varwg.meteo.meteox2y
 
 .. autofunction:: lw_tennessee

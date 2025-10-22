@@ -1,6 +1,6 @@
-﻿vg.times.iso2datetime
-=====================
+﻿varwg.times.iso2datetime
+========================
 
-.. currentmodule:: vg.times
+.. currentmodule:: varwg.times
 
 .. autofunction:: iso2datetime

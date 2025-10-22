@@ -1,6 +1,6 @@
-﻿vg.smoothing.max
-================
+﻿varwg.smoothing.max
+===================
 
-.. currentmodule:: vg.smoothing
+.. currentmodule:: varwg.smoothing
 
 .. autofunction:: max

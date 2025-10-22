@@ -1,6 +1,6 @@
-﻿vg.times.unix2str
-=================
+﻿varwg.times.unix2str
+====================
 
-.. currentmodule:: vg.times
+.. currentmodule:: varwg.times
 
 .. autofunction:: unix2str

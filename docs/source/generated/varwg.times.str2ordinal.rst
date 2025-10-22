@@ -1,6 +1,6 @@
-﻿vg.times.str2ordinal
-====================
+﻿varwg.times.str2ordinal
+=======================
 
-.. currentmodule:: vg.times
+.. currentmodule:: varwg.times
 
 .. autofunction:: str2ordinal

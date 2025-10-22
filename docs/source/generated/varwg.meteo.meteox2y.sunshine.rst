@@ -1,6 +1,6 @@
-﻿vg.meteo.meteox2y.sunshine
-==========================
+﻿varwg.meteo.meteox2y.sunshine
+=============================
 
-.. currentmodule:: vg.meteo.meteox2y
+.. currentmodule:: varwg.meteo.meteox2y
 
 .. autofunction:: sunshine

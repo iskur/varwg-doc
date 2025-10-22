@@ -1,6 +1,6 @@
-﻿vg.times.str2datetime
-=====================
+﻿varwg.times.str2datetime
+========================
 
-.. currentmodule:: vg.times
+.. currentmodule:: varwg.times
 
 .. autofunction:: str2datetime

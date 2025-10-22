@@ -1,6 +1,6 @@
-﻿vg.smoothing.std
-================
+﻿varwg.smoothing.std
+===================
 
-.. currentmodule:: vg.smoothing
+.. currentmodule:: varwg.smoothing
 
 .. autofunction:: std

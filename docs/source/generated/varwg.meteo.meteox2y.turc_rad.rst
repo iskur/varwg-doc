@@ -1,6 +1,6 @@
-﻿vg.meteo.meteox2y.turc\_rad
-===========================
+﻿varwg.meteo.meteox2y.turc\_rad
+==============================
 
-.. currentmodule:: vg.meteo.meteox2y
+.. currentmodule:: varwg.meteo.meteox2y
 
 .. autofunction:: turc_rad

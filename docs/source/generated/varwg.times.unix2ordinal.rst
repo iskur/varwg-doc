@@ -1,6 +1,6 @@
-﻿vg.times.unix2ordinal
-=====================
+﻿varwg.times.unix2ordinal
+========================
 
-.. currentmodule:: vg.times
+.. currentmodule:: varwg.times
 
 .. autofunction:: unix2ordinal

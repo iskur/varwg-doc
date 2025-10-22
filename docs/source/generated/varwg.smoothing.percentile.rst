@@ -1,6 +1,6 @@
-﻿vg.smoothing.percentile
-=======================
+﻿varwg.smoothing.percentile
+==========================
 
-.. currentmodule:: vg.smoothing
+.. currentmodule:: varwg.smoothing
 
 .. autofunction:: percentile

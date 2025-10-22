@@ -1,6 +1,6 @@
-﻿vg.meteo.meteox2y.vap\_p2rel
-============================
+﻿varwg.meteo.meteox2y.vap\_p2rel
+===============================
 
-.. currentmodule:: vg.meteo.meteox2y
+.. currentmodule:: varwg.meteo.meteox2y
 
 .. autofunction:: vap_p2rel
