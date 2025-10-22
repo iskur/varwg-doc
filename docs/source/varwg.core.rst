@@ -7,7 +7,7 @@ Submodules
 vg.core.vg\_base module
 -----------------------
 
-.. automodule:: vg.core.vg_base
+.. automodule:: varwg.core.vg_base
    :members:
    :show-inheritance:
    :undoc-members:
@@ -15,7 +15,7 @@ vg.core.vg\_base module
 vg.core.vg\_core module
 -----------------------
 
-.. automodule:: vg.core.vg_core
+.. automodule:: varwg.core.vg_core
    :members:
    :show-inheritance:
    :undoc-members:
@@ -23,7 +23,7 @@ vg.core.vg\_core module
 vg.core.vg\_plotting module
 ---------------------------
 
-.. automodule:: vg.core.vg_plotting
+.. automodule:: varwg.core.vg_plotting
    :members:
    :show-inheritance:
    :undoc-members:
@@ -31,7 +31,7 @@ vg.core.vg\_plotting module
 Module contents
 ---------------
 
-.. automodule:: vg.core
+.. automodule:: varwg.core
    :members:
    :show-inheritance:
    :undoc-members:

@@ -7,7 +7,7 @@ Submodules
 vg.meteo.avrwind module
 -----------------------
 
-.. automodule:: vg.meteo.avrwind
+.. automodule:: varwg.meteo.avrwind
    :members:
    :show-inheritance:
    :undoc-members:
@@ -15,7 +15,7 @@ vg.meteo.avrwind module
 vg.meteo.dwd\_opendata module
 -----------------------------
 
-.. automodule:: vg.meteo.dwd_opendata
+.. automodule:: varwg.meteo.dwd_opendata
    :members:
    :show-inheritance:
    :undoc-members:
@@ -23,7 +23,7 @@ vg.meteo.dwd\_opendata module
 vg.meteo.meteox2y module
 ------------------------
 
-.. automodule:: vg.meteo.meteox2y
+.. automodule:: varwg.meteo.meteox2y
    :members:
    :show-inheritance:
    :undoc-members:
@@ -31,7 +31,7 @@ vg.meteo.meteox2y module
 vg.meteo.meteox2y\_cy module
 ----------------------------
 
-.. automodule:: vg.meteo.meteox2y_cy
+.. automodule:: varwg.meteo.meteox2y_cy
    :members:
    :show-inheritance:
    :undoc-members:
@@ -39,7 +39,7 @@ vg.meteo.meteox2y\_cy module
 vg.meteo.windrose module
 ------------------------
 
-.. automodule:: vg.meteo.windrose
+.. automodule:: varwg.meteo.windrose
    :members:
    :show-inheritance:
    :undoc-members:
@@ -47,7 +47,7 @@ vg.meteo.windrose module
 Module contents
 ---------------
 
-.. automodule:: vg.meteo
+.. automodule:: varwg.meteo
    :members:
    :show-inheritance:
    :undoc-members:

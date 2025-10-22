@@ -17,7 +17,7 @@ Submodules
 vg.config\_template module
 --------------------------
 
-.. automodule:: vg.config_template
+.. automodule:: varwg.config_template
    :members:
    :show-inheritance:
    :undoc-members:
@@ -25,7 +25,7 @@ vg.config\_template module
 vg.ctimes module
 ----------------
 
-.. automodule:: vg.ctimes
+.. automodule:: varwg.ctimes
    :members:
    :show-inheritance:
    :undoc-members:
@@ -33,7 +33,7 @@ vg.ctimes module
 vg.ecdf module
 --------------
 
-.. automodule:: vg.ecdf
+.. automodule:: varwg.ecdf
    :members:
    :show-inheritance:
    :undoc-members:
@@ -41,7 +41,7 @@ vg.ecdf module
 vg.helpers module
 -----------------
 
-.. automodule:: vg.helpers
+.. automodule:: varwg.helpers
    :members:
    :show-inheritance:
    :undoc-members:
@@ -49,7 +49,7 @@ vg.helpers module
 vg.smoothing module
 -------------------
 
-.. automodule:: vg.smoothing
+.. automodule:: varwg.smoothing
    :members:
    :show-inheritance:
    :undoc-members:
@@ -57,7 +57,7 @@ vg.smoothing module
 vg.times module
 ---------------
 
-.. automodule:: vg.times
+.. automodule:: varwg.times
    :members:
    :show-inheritance:
    :undoc-members:
