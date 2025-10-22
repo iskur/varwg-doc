@@ -1,29 +1,29 @@
-vg.core package
-===============
+varwg.core package
+===================
 
 Submodules
 ----------
 
-vg.core.vg\_base module
------------------------
+varwg.core.base module
+----------------------
 
-.. automodule:: varwg.core.vg_base
+.. automodule:: varwg.core.base
    :members:
    :show-inheritance:
    :undoc-members:
 
-vg.core.vg\_core module
------------------------
+varwg.core.core module
+----------------------
 
-.. automodule:: varwg.core.vg_core
+.. automodule:: varwg.core.core
    :members:
    :show-inheritance:
    :undoc-members:
 
-vg.core.vg\_plotting module
----------------------------
+varwg.core.plotting module
+--------------------------
 
-.. automodule:: varwg.core.vg_plotting
+.. automodule:: varwg.core.plotting
    :members:
    :show-inheritance:
    :undoc-members:
